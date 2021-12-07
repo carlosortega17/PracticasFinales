@@ -20,7 +20,7 @@ main: @ Funcion principal
 .Mensajes:
 	.word	.PAR @ Asignacion de memoria para el mensaje PAR
 	.word	.IMPAR @ Asignacion de memoria para el mensaje IMPAR
-.PAR:
-	.asciz	"%d es impar\012"
 .IMPAR:
-	.asciz	"%d es par\012"
+	.asciz	"%d es impar\012" @ Mensaje para mostrar numeros impares
+.PAR:
+	.asciz	"%d es par\012" @ Mensaje para mostrar numeros pares
